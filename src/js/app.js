@@ -5,9 +5,10 @@
   'use strict';
 
   angular
-    .module('myApp', [
-      'myApp.config',
-      'myApp.components.main'
+    .module('ticketStash', [
+      'ticketStash.config',
+      'ui.materialize',
+      'ticketStash.components.allTickets'
     ]);
 
 })();

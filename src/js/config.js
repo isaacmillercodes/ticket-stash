@@ -3,11 +3,8 @@
   'use strict';
 
   angular
-    .module('myApp.config', [])
-    .config(appConfig)
-    .run(function($templateCache) {
-      $templateCache.removeAll();
-    });
+    .module('ticketStash.config', [])
+    .config(appConfig);
 
   function appConfig() {}
 
