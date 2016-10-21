@@ -1,4 +1,13 @@
 /* add custom styles */
-[ng-cloag] {
+[ng-cloak] {
   display: none;
+}
+
+.ticketImage {
+  width: auto;
+  height: 300px;
+}
+
+.ticketDiv {
+  border: 1px solid;
 }

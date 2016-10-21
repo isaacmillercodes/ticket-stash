@@ -9,11 +9,15 @@
   </head>
   <body ng-cloak ng-controller="ticketController as ticketCtrl">
 
-    <div ng-repeat="ticket in ticketCtrl.tickets">
-      <p>{{ticket.name}}</p>
-      <p>{{ticket.date | amCalendar }}</p>
-      <p>{{ticket.venue}}</p>
-      <p>{{ticket.price | currency }}</p>
+    <div ng-repeat="ticket in ticketCtrl.tickets | orderBy: 'date'" class="col s10 offset-s2 ticketDiv">
+      <div class="row col s10">
+        <img ng-src="{{ticket.imageUrl}}" class="ticketImage col s4">
+
+        <p>{{ticket.name}}</p>
+        <p>{{ticket.date | amDateFormat:'dddd, MMMM Do, h:mm a'}}</p>        
+        <p>{{ticket.venue}}</p>
+        <p>{{ticket.price | currency }}</p>
+      </div>
     </div>
 
     <!-- scripts -->
