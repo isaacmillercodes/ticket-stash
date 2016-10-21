@@ -28,7 +28,7 @@
         venueCapacity: 5000,
         quantityRemaining: 1249,
         soldOut: false,
-        imageUrl: 'http://www.dinnerpartydownload.org/wp-content/uploads/2014/04/IAS-S2-06-red-dress_0540_12.jpg',
+        imageUrl: 'http://www.ew.com/sites/default/files/styles/tout_image_612x380/public/i/2015/04/03/amy-schumer-9999.jpg?itok=4LdNiFpO',
         categories: ['Comedy']
       },
       {
@@ -40,7 +40,7 @@
         venueCapacity: 3700,
         quantityRemaining: 569,
         soldOut: false,
-        imageUrl: 'http://www.fillmoreauditorium.org/wp-content/uploads/2016/10/snoop-dogg-city-sound-milano-festival-18-1.png',
+        imageUrl: 'http://img0.gtsstatic.com/wallpapers/aae482bd20caf2fd0c7d71fcf996137a_large.jpeg',
         categories: ['Music', 'Hip Hop']
       },
       {
@@ -64,7 +64,7 @@
         venueCapacity: 6500,
         quantityRemaining: 1532,
         soldOut: false,
-        imageUrl: 'http://www.altitudetickets.com/media/2702/kings-of-leon-event-2017.jpg',
+        imageUrl: 'http://s1.bwallpapers.com/wallpapers/2014/04/11/kings-of-leon-background_113200397.jpg',
         categories: ['Music', 'Rock']
       },
       {
@@ -196,7 +196,7 @@
         venueCapacity: 324,
         quantityRemaining: 58,
         soldOut: false,
-        imageUrl: 'http://bradwilliamscomedy.com/new/wp-content/uploads/2015/03/land_brad1.jpg',
+        imageUrl: 'http://www.tvinsider.com/wp-content/uploads/images/content/promos/Brad_Williams_Fun_Size.jpg',
         categories: ['Comedy']
       },
       {
@@ -208,7 +208,7 @@
         venueCapacity: 500,
         quantityRemaining: 293,
         soldOut: false,
-        imageUrl: 'http://www.deathbymovies.com/wp-content/uploads/2012/12/Jackie_Kashian_300dpi_Another_Headshot.jpg',
+        imageUrl: 'http://www.jackiekashian.com/images/backgrounds/jackie_kashian_stage.jpg',
         categories: ['Comedy']
       },
       {
@@ -232,7 +232,7 @@
         venueCapacity: 500,
         quantityRemaining: 215,
         soldOut: false,
-        imageUrl: 'http://olympiafilmsociety.org/wp-content/uploads/2015/08/joshblue.jpg',
+        imageUrl: 'http://images1.westword.com/imager/u/745x420/7331390/joshblue.jpg',
         categories: ['Comedy']
       },
       {

@@ -5,31 +5,54 @@
     <title>Ticket Stash</title>
     <!-- styles -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/main.css">
   </head>
   <body ng-cloak ng-controller="ticketController as ticketCtrl">
 
     <div ng-repeat="ticket in ticketCtrl.tickets | orderBy: 'date'" class="col s10 offset-s2 ticketDiv">
-      <div class="row col s10">
-        <img ng-src="{{ticket.imageUrl}}" class="ticketImage col s4">
+      <div class="row">
+        <div class="col s8 ticketInfo">
+          <img ng-src="{{ticket.imageUrl}}" class="ticketImage col s6">
 
-        <p>{{ticket.name}}</p>
-        <p>{{ticket.date | amDateFormat:'dddd, MMMM Do, h:mm a'}}</p>        
-        <p>{{ticket.venue}}</p>
-        <p>{{ticket.price | currency }}</p>
+          <h5>{{ticket.name}}</h5>
+          <p>{{ticket.date | amDateFormat:'dddd, MMMM Do, h:mma'}}</p>
+          <p>{{ticket.venue}}</p>
+          <p>{{ticket.price | currency }}</p>
+        </div>
+
+        <div class="row">
+          <div class="input-field col s4 addTicket">
+            <select class="col s6">
+              <option value="" disabled selected>Select Quantity</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+            </select>
+            <button class="btn waves-effect waves-light col offset-s1" type="button" name="action">Add to Cart
+              <i class="material-icons right">add_shopping_cart</i>
+            </button>
+          </div>
+        </div>
       </div>
     </div>
 
     <!-- scripts -->
     <script type="text/javascript" src="//code.jquery.com/jquery-2.2.4.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.8/angular.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-materialize/0.2.1/angular-materialize.min.js">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
     <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.8/angular.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-materialize/0.2.1/angular-materialize.min.js">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.8/angular.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.6/moment.min.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular-moment/0.10.3/angular-moment.min.js"></script>
     <script type="text/javascript" src="js/app.js"></script>
     <script type="text/javascript" src="js/config.js"></script>
-    <!-- main component -->
+    <!-- main components -->
     <script type="text/javascript" src="js/components/allTickets/allTickets.config.js"></script>
     <script type="text/javascript" src="js/components/allTickets/allTickets.service.js"></script>
     <script type="text/javascript" src="js/components/allTickets/allTickets.controller.js"></script>

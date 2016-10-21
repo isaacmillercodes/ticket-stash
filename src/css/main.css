@@ -4,8 +4,24 @@
 }
 
 .ticketImage {
-  width: auto;
+  width: 500px;
   height: 300px;
+}
+
+.ticketInfo {
+  text-align: center;
+}
+
+.ticketInfo h5 {
+  margin-top: 5%;
+}
+
+.ticketInfo img {
+  margin-top: 2%;
+}
+
+.addTicket {
+  margin-top: 3%;
 }
 
 .ticketDiv {
