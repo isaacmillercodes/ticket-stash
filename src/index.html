@@ -8,39 +8,9 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/main.css">
   </head>
-  <body ng-cloak ng-controller="ticketController as ticketCtrl">
+  <body ng-cloak>
 
-    <div ng-repeat="ticket in ticketCtrl.tickets | orderBy: 'date'" class="col s10 offset-s2 ticketDiv">
-      <div class="row">
-        <div class="col s8 ticketInfo">
-          <img ng-src="{{ticket.imageUrl}}" class="ticketImage col s6">
-
-          <h5>{{ticket.name}}</h5>
-          <p>{{ticket.date | amDateFormat:'dddd, MMMM Do, h:mma'}}</p>
-          <p>{{ticket.venue}}</p>
-          <p>{{ticket.price | currency }}</p>
-        </div>
-
-        <div class="row">
-          <div class="input-field col s4 addTicket">
-            <select class="col s6">
-              <option value="" disabled selected>Select Quantity</option>
-              <option value="1">1</option>
-              <option value="2">2</option>
-              <option value="3">3</option>
-              <option value="4">4</option>
-              <option value="5">5</option>
-              <option value="6">6</option>
-              <option value="7">7</option>
-              <option value="8">8</option>
-            </select>
-            <button class="btn waves-effect waves-light col offset-s1" type="button" name="action">Add to Cart
-              <i class="material-icons right">add_shopping_cart</i>
-            </button>
-          </div>
-        </div>
-      </div>
-    </div>
+    <ticket></ticket>
 
     <!-- scripts -->
     <script type="text/javascript" src="//code.jquery.com/jquery-2.2.4.min.js"></script>
@@ -56,5 +26,6 @@
     <script type="text/javascript" src="js/components/allTickets/allTickets.config.js"></script>
     <script type="text/javascript" src="js/components/allTickets/allTickets.service.js"></script>
     <script type="text/javascript" src="js/components/allTickets/allTickets.controller.js"></script>
+    <script type="text/javascript" src="js/components/allTickets/allTickets.directive.js"></script>
   </body>
 </html>

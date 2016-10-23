@@ -1,0 +1,55 @@
+<!-- <div ng-repeat="ticket in vm.tickets | orderBy: 'date'" class="col s10 offset-s2 ticketDiv">
+  <div class="row">
+    <div class="col s8 ticketInfo">
+      <img ng-src="{{ticket.imageUrl}}" class="ticketImage col s5">
+
+      <h5>{{ticket.name}}</h5>
+      <p>{{ticket.date | amDateFormat:'dddd, MMMM Do, h:mma'}}</p>
+      <p>{{ticket.venue}}</p>
+      <p>{{ticket.price | currency }}</p>
+    </div>
+
+    <div class="row">
+      <div class="input-field col s4 addTicket">
+        <select class="col s6 browser-default">
+          <option value="" disabled selected>Select Quantity</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+        </select>
+        <button class="btn waves-effect waves-light col offset-s1" type="button" name="action">Add to Cart
+          <i class="material-icons right">add_shopping_cart</i>
+        </button>
+      </div>
+    </div>
+  </div>
+</div> -->
+
+
+<div class="row">
+
+  <div ng-repeat="ticket in vm.tickets">
+      <div class="col s6">
+        <div class="card large">
+          <div class="card-image">
+            <img ng-src="{{ticket.imageUrl}}">
+            <span class="card-title event-name">{{ticket.name}}</span>
+          </div>
+          <div class="card-content">
+            <p>I am a very simple card. I am good at containing small bits of information.
+            I am convenient because I require little markup to use effectively.</p>
+          </div>
+          <div class="card-action">
+            <a href="#">This is a link</a>
+          </div>
+        </div>
+      </div>
+  </div>
+
+
+</div>

@@ -8,12 +8,8 @@
     .module('ticketStash', [
       'ticketStash.config',
       'ui.materialize',
-      'ticketStash.components.allTickets',
-      'angularMoment'
+      'angularMoment',
+      'ticketStash.components.allTickets'
     ]);
 
 })();
-
-$(document).ready(function() {
-    $('select').material_select();
-});

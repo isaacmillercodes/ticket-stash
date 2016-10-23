@@ -129,7 +129,7 @@
       },
       {
         id: 11,
-        name: 'Colorado Avalanche vs. Nashville Predators',
+        name: 'Colorado Avalanche vs. Minnesota Wild',
         date: new Date('November 5, 2016 13:00:00'),
         price: 59.99,
         venue: 'Pepsi Center',

@@ -3,9 +3,13 @@
   display: none;
 }
 
-.ticketImage {
-  width: 500px;
-  height: 300px;
+.event-name {
+  text-shadow: 1px 1px 1px black; 
+}
+
+/*.ticketImage {
+  width: 5vw;
+  height: 33vh;
 }
 
 .ticketInfo {
@@ -22,8 +26,4 @@
 
 .addTicket {
   margin-top: 3%;
-}
-
-.ticketDiv {
-  border: 1px solid;
-}
+}*/
