@@ -52,7 +52,7 @@
         venueCapacity: 18000,
         quantityRemaining: 11983,
         soldOut: false,
-        imageUrl: 'http://www.altitudetickets.com/media/2447/avalanchematchups_1000x1000_winnipegjets.jpg',
+        imageUrl: 'http://www.altitudetickets.com/media/2447/avalanchematchups_1000x1000_winnipegjets.jpg?anchor=center&mode=crop&width=358&height=160&rnd=131115863940000000',
         categories: ['Sports', 'Colorado Avalanche']
       },
       {
@@ -124,7 +124,7 @@
         venueCapacity: 18000,
         quantityRemaining: 8413,
         soldOut: false,
-        imageUrl: 'http://www.altitudetickets.com/media/2462/avalanchematchups_1000x1000_nashvillepredators.jpg',
+        imageUrl: 'http://www.altitudetickets.com/media/2462/avalanchematchups_1000x1000_nashvillepredators.jpg?anchor=center&mode=crop&width=358&height=160&rnd=131115863940000000',
         categories: ['Sports', 'Colorado Avalanche']
       },
       {
@@ -136,7 +136,7 @@
         venueCapacity: 18000,
         quantityRemaining: 4912,
         soldOut: false,
-        imageUrl: 'http://www.altitudetickets.com/media/2460/avalanchematchups_1000x1000_minnesotawild.jpg',
+        imageUrl: 'http://www.altitudetickets.com/media/2460/avalanchematchups_1000x1000_minnesotawild.jpg?anchor=center&mode=crop&width=358&height=160&rnd=131115863940000000',
         categories: ['Sports', 'Colorado Avalanche']
       },
       {
@@ -148,7 +148,7 @@
         venueCapacity: 18000,
         quantityRemaining: 10923,
         soldOut: false,
-        imageUrl: 'http://www.altitudetickets.com/media/2439/avalanchematchups_1000x1000_phoenixcoyotes.jpg',
+        imageUrl: 'http://www.altitudetickets.com/media/2439/avalanchematchups_1000x1000_phoenixcoyotes.jpg?anchor=center&mode=crop&width=358&height=160&rnd=131115863940000000',
         categories: ['Sports', 'Colorado Avalanche']
       },
       {
@@ -160,7 +160,7 @@
         venueCapacity: 18000,
         quantityRemaining: 10923,
         soldOut: false,
-        imageUrl: 'http://www.altitudetickets.com/media/2449/avalanchematchups_1000x1000_bostonbruins.jpg',
+        imageUrl: 'http://www.altitudetickets.com/media/2449/avalanchematchups_1000x1000_bostonbruins.jpg?anchor=center&mode=crop&width=358&height=160&rnd=131115863940000000',
         categories: ['Sports', 'Colorado Avalanche']
       },
       {
@@ -172,7 +172,7 @@
         venueCapacity: 18000,
         quantityRemaining: 5231,
         soldOut: false,
-        imageUrl: 'http://www.altitudetickets.com/media/2459/avalanchematchups_1000x1000_losangeleskings.jpg',
+        imageUrl: 'http://www.altitudetickets.com/media/2459/avalanchematchups_1000x1000_losangeleskings.jpg?anchor=center&mode=crop&width=358&height=160&rnd=131115863940000000',
         categories: ['Sports', 'Colorado Avalanche']
       },
       {
