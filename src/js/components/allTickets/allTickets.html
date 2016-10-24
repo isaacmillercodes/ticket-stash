@@ -4,29 +4,36 @@
   <span ng-repeat="sub in category.subCategories">
     <li>--{{sub}}</li>
   </span>
-</ul>
+</ul> -->
 
-{{vm.categories}} -->
+{{vm.categories}}
 <div class="row">
   <div class="col s3 offset-s1 sort">
     <select class="browser-default">
-      <option value="" selected disabled>Sort By Category</option>
-      <option value="sports"><strong>Sports</strong></option>
-      <option value="broncos"> -- Denver Broncos</option>
-      <option value="avs"> -- Colorado Avalanche</option>
-      <option value="comedy">Comedy</option>
-      <option value="music">Music</option>
-      <option value="hiphop"> -- Hip Hop</option>
-      <option value="rock"> -- Rock</option>
-      <option value="electronic"> -- Electronic</option>
+      <option selected disabled>Sort By Category</option>
+      <option><strong>Sports</strong></option>
+      <option> -- Denver Broncos</option>
+      <option> -- Colorado Avalanche</option>
+      <option>Comedy</option>
+      <option>Music</option>
+      <option> -- Hip Hop</option>
+      <option> -- Rock</option>
+      <option> -- Electronic</option>
     </select>
+  </div>
+  <div class="col s3 offset-s1">
+    <form>
+      <div class="form-group">
+        <input type="text" class="form-control" ng-model="vm.search" placeholder="Search">
+      </div>
+    </form>
   </div>
 </div>
 
 
 <div class="row">
 
-  <div ng-repeat="ticket in vm.tickets | orderBy: 'date'">
+  <div ng-repeat="ticket in vm.tickets | filter: vm.search | orderBy: 'date'">
       <div class="col s6">
         <div class="card large">
           <div class="card-image">

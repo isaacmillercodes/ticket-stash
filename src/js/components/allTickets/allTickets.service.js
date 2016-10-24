@@ -17,8 +17,7 @@
         quantityRemaining: 3296,
         soldOut: false,
         imageUrl: 'http://cbsdenver.files.wordpress.com/2014/05/texans-bronos-logo.png?w=420&h=237',
-        mainCategory: 'Sports',
-        subCategory: 'Denver Broncos'
+        categories: ['Sports', 'Denver Broncos']
       },
       {
         id: 2,
@@ -30,8 +29,7 @@
         quantityRemaining: 1249,
         soldOut: false,
         imageUrl: 'http://www.ew.com/sites/default/files/styles/tout_image_612x380/public/i/2015/04/03/amy-schumer-9999.jpg?itok=4LdNiFpO',
-        mainCategory: 'Comedy',
-        subCategory: ''
+        categories: ['Comedy']
       },
       {
         id: 3,
@@ -43,8 +41,7 @@
         quantityRemaining: 569,
         soldOut: false,
         imageUrl: 'http://img0.gtsstatic.com/wallpapers/aae482bd20caf2fd0c7d71fcf996137a_large.jpeg',
-        mainCategory: 'Music',
-        subCategory: 'Hip Hop'
+        categories: ['Music', 'Hip Hop']
       },
       {
         id: 4,
@@ -56,8 +53,7 @@
         quantityRemaining: 11983,
         soldOut: false,
         imageUrl: 'http://www.altitudetickets.com/media/2447/avalanchematchups_1000x1000_winnipegjets.jpg?anchor=center&mode=crop&width=358&height=160&rnd=131115863940000000',
-        mainCategory: 'Sports',
-        subCategory: 'Colorado Avalanche'
+        categories: ['Sports', 'Colorado Avalanche']
       },
       {
         id: 5,
@@ -69,8 +65,7 @@
         quantityRemaining: 1532,
         soldOut: false,
         imageUrl: 'http://s1.bwallpapers.com/wallpapers/2014/04/11/kings-of-leon-background_113200397.jpg',
-        mainCategory: 'Music',
-        subCategory: 'Rock'
+        categories: ['Music', 'Rock']
       },
       {
         id: 6,
@@ -82,8 +77,7 @@
         quantityRemaining: 5984,
         soldOut: false,
         imageUrl: 'http://cbsdenver.files.wordpress.com/2014/05/chargers-broncos-logo.png?w=420&h=237',
-        mainCategory: 'Sports',
-        subCategory: 'Denver Broncos'
+        categories: ['Sports', 'Denver Broncos']
       },
       {
         id: 7,
@@ -95,8 +89,7 @@
         quantityRemaining: 9284,
         soldOut: false,
         imageUrl: 'http://cbsdenver.files.wordpress.com/2014/05/chiefs-broncos-logo.png?w=420&h=234',
-        mainCategory: 'Sports',
-        subCategory: 'Denver Broncos'
+        categories: ['Sports', 'Denver Broncos']
       },
       {
         id: 8,
@@ -108,8 +101,7 @@
         quantityRemaining: 429,
         soldOut: false,
         imageUrl: 'http://cbsdenver.files.wordpress.com/2015/10/new-england-patriots-denver-broncos-logo1.jpg?w=420&h=234',
-        mainCategory: 'Sports',
-        subCategory: 'Denver Broncos'
+        categories: ['Sports', 'Denver Broncos']
       },
       {
         id: 9,
@@ -121,8 +113,7 @@
         quantityRemaining: 2389,
         soldOut: false,
         imageUrl: 'http://cbsdenver.files.wordpress.com/2014/05/raiders-broncos-logo.png?w=420&h=236',
-        mainCategory: 'Sports',
-        subCategory: 'Denver Broncos'
+        categories: ['Sports', 'Denver Broncos']
       },
       {
         id: 10,
@@ -134,8 +125,7 @@
         quantityRemaining: 8413,
         soldOut: false,
         imageUrl: 'http://www.altitudetickets.com/media/2462/avalanchematchups_1000x1000_nashvillepredators.jpg?anchor=center&mode=crop&width=358&height=160&rnd=131115863940000000',
-        mainCategory: 'Sports',
-        subCategory: 'Colorado Avalanche'
+        categories: ['Sports', 'Colorado Avalanche']
       },
       {
         id: 11,
@@ -147,8 +137,7 @@
         quantityRemaining: 4912,
         soldOut: false,
         imageUrl: 'http://www.altitudetickets.com/media/2460/avalanchematchups_1000x1000_minnesotawild.jpg?anchor=center&mode=crop&width=358&height=160&rnd=131115863940000000',
-        mainCategory: 'Sports',
-        subCategory: 'Colorado Avalanche'
+        categories: ['Sports', 'Colorado Avalanche']
       },
       {
         id: 12,
@@ -160,8 +149,7 @@
         quantityRemaining: 10923,
         soldOut: false,
         imageUrl: 'http://www.altitudetickets.com/media/2439/avalanchematchups_1000x1000_phoenixcoyotes.jpg?anchor=center&mode=crop&width=358&height=160&rnd=131115863940000000',
-        mainCategory: 'Sports',
-        subCategory: 'Colorado Avalanche'
+        categories: ['Sports', 'Colorado Avalanche']
       },
       {
         id: 13,
@@ -173,8 +161,7 @@
         quantityRemaining: 10923,
         soldOut: false,
         imageUrl: 'http://www.altitudetickets.com/media/2449/avalanchematchups_1000x1000_bostonbruins.jpg?anchor=center&mode=crop&width=358&height=160&rnd=131115863940000000',
-        mainCategory: 'Sports',
-        subCategory: 'Colorado Avalanche'
+        categories: ['Sports', 'Colorado Avalanche']
       },
       {
         id: 14,
@@ -186,8 +173,7 @@
         quantityRemaining: 5231,
         soldOut: false,
         imageUrl: 'http://www.altitudetickets.com/media/2459/avalanchematchups_1000x1000_losangeleskings.jpg?anchor=center&mode=crop&width=358&height=160&rnd=131115863940000000',
-        mainCategory: 'Sports',
-        subCategory: 'Colorado Avalanche'
+        categories: ['Sports', 'Colorado Avalanche']
       },
       {
         id: 15,
@@ -199,8 +185,7 @@
         quantityRemaining: 129,
         soldOut: false,
         imageUrl: 'http://danielkoren.net/wp-content/uploads/2014/03/danielkoren9.jpg',
-        mainCategory: 'Comedy',
-        subCategory: ''
+        categories: ['Comedy']
       },
       {
         id: 16,
@@ -212,8 +197,7 @@
         quantityRemaining: 58,
         soldOut: false,
         imageUrl: 'http://www.tvinsider.com/wp-content/uploads/images/content/promos/Brad_Williams_Fun_Size.jpg',
-        mainCategory: 'Comedy',
-        subCategory: ''
+        categories: ['Comedy']
       },
       {
         id: 17,
@@ -225,8 +209,7 @@
         quantityRemaining: 293,
         soldOut: false,
         imageUrl: 'http://www.jackiekashian.com/images/backgrounds/jackie_kashian_stage.jpg',
-        mainCategory: 'Comedy',
-        subCategory: ''
+        categories: ['Comedy']
       },
       {
         id: 18,
@@ -238,8 +221,7 @@
         quantityRemaining: 15,
         soldOut: false,
         imageUrl: 'http://static5.comicvine.com/uploads/original/10/100647/3025606-smithkindy.jpg',
-        mainCategory: 'Comedy',
-        subCategory: ''
+        categories: ['Comedy']
       },
       {
         id: 19,
@@ -251,8 +233,7 @@
         quantityRemaining: 215,
         soldOut: false,
         imageUrl: 'http://images1.westword.com/imager/u/745x420/7331390/joshblue.jpg',
-        mainCategory: 'Comedy',
-        subCategory: ''
+        categories: ['Comedy']
       },
       {
         id: 20,
@@ -264,8 +245,7 @@
         quantityRemaining: 111,
         soldOut: false,
         imageUrl: 'http://d1ya1fm0bicxg1.cloudfront.net/2016/07/young-the-giant-tickets_11-03-16_17_57801a366c210.jpg',
-        mainCategory: 'Music',
-        subCategory: 'Rock'
+        categories: ['Music', 'Rock']
       },
       {
         id: 21,
@@ -277,8 +257,7 @@
         quantityRemaining: 354,
         soldOut: false,
         imageUrl: 'http://d1ya1fm0bicxg1.cloudfront.net/2016/09/rae-sremmurd-tickets_11-04-16_17_57eaddf924bc9.jpg',
-        mainCategory: 'Music',
-        subCategory: 'Hip Hop'
+        categories: ['Music', 'Hip Hop']
       },
       {
         id: 22,
@@ -290,8 +269,7 @@
         quantityRemaining: 1843,
         soldOut: false,
         imageUrl: 'http://www.fillmoreauditorium.org/wp-content/uploads/2016/10/300-X-220px-1-1.jpg',
-        mainCategory: 'Music',
-        subCategory: 'Hip Hop'
+        categories: ['Music', 'Hip Hop']
       },
       {
         id: 23,
@@ -303,8 +281,7 @@
         quantityRemaining: 132,
         soldOut: false,
         imageUrl: 'http://d1ya1fm0bicxg1.cloudfront.net/2016/08/the-faint-tickets_10-30-16_17_57a3c7a695c98.jpg',
-        mainCategory: 'Music',
-        subCategory: 'Electronic'
+        categories: ['Music', 'Electronic']
       },
       {
         id: 24,
@@ -316,8 +293,7 @@
         quantityRemaining: 164,
         soldOut: false,
         imageUrl: 'http://lasallerecords.com/wp-content/uploads/2015/07/PrayersPress1-1.jpg',
-        mainCategory: 'Music',
-        subCategory: 'Electronic'
+        categories: ['Music', 'Electronic']
       },
       {
         id: 25,
@@ -329,8 +305,7 @@
         quantityRemaining: 254,
         soldOut: false,
         imageUrl: 'http://www.metalsucks.net/wp-content/uploads/2016/03/Animals-As-Leaders.jpg',
-        mainCategory: 'Music',
-        subCategory: 'Rock'
+        categories: ['Music', 'Rock']
       }
 
     ];
