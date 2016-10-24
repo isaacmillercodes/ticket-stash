@@ -1,3 +1,29 @@
+
+<!-- <ul ng-repeat="category in vm.categories">
+  <li>{{category.name}}</li>
+  <span ng-repeat="sub in category.subCategories">
+    <li>--{{sub}}</li>
+  </span>
+</ul>
+
+{{vm.categories}} -->
+<div class="row">
+  <div class="col s3 offset-s1 sort">
+    <select class="browser-default">
+      <option value="" selected disabled>Sort By Category</option>
+      <option value="sports"><strong>Sports</strong></option>
+      <option value="broncos"> -- Denver Broncos</option>
+      <option value="avs"> -- Colorado Avalanche</option>
+      <option value="comedy">Comedy</option>
+      <option value="music">Music</option>
+      <option value="hiphop"> -- Hip Hop</option>
+      <option value="rock"> -- Rock</option>
+      <option value="electronic"> -- Electronic</option>
+    </select>
+  </div>
+</div>
+
+
 <div class="row">
 
   <div ng-repeat="ticket in vm.tickets | orderBy: 'date'">
@@ -20,7 +46,7 @@
             <div class="row">
               <div class="input-field addTicket">
                 <p class="col s2">Quantity:</p>
-                <select class="col s5 browser-default" name="quantiy">
+                <select class="col s5 browser-default" name="quantity">
                   <option value="1" selected>1</option>
                   <option value="2">2</option>
                   <option value="3">3</option>
