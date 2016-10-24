@@ -6,3 +6,11 @@
 .event-name {
   text-shadow: 1px 1px 1px black;
 }
+
+.sort-row {
+  padding-top: 100px;
+}
+
+.cart-button {
+  margin-top: 10px;
+}

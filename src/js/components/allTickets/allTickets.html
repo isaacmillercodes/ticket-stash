@@ -6,9 +6,9 @@
   </span>
 </ul> -->
 
-{{vm.categories}}
-<div class="row">
-  <div class="col s3 offset-s1 sort">
+<!-- {{vm.categories}} -->
+<div class="row sort-row">
+  <div class="col s4 offset-s1">
     <select class="browser-default">
       <option selected disabled>Sort By Category</option>
       <option><strong>Sports</strong></option>
@@ -21,12 +21,17 @@
       <option> -- Electronic</option>
     </select>
   </div>
-  <div class="col s3 offset-s1">
+  <div class="col s3">
     <form>
       <div class="form-group">
         <input type="text" class="form-control" ng-model="vm.search" placeholder="Search">
       </div>
     </form>
+  </div>
+  <div class="col s4 cart-button">
+    <button class="btn waves-effect waves-light col offset-s1" type="button" name="action">Current Shopping Cart
+      <i class="material-icons right">shopping_cart</i>
+    </button>
   </div>
 </div>
 
